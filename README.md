@@ -1,6 +1,6 @@
 https://api.github.com/search/repositories?q=created:%3E&sort=stars&order=desc&per_page=50&page=';
 
-
+fetch(`https://api.github.com/search/repositories?q=stars%3A%3E0&sort=stars&per_page=50`)
 
 
 
