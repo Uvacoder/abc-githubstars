@@ -17,7 +17,7 @@ export default class RepoList extends Component {
 
   fetchUsers() {
     // Where we're fetching data from
-    fetch(`https://api.github.com/search/repositories?q=stars%3A%3E0&sort=stars&per_page=30`)
+    fetch(`https://api.github.com/search/repositories?q=stars%3A%3E0&sort=stars&per_page=50`)
       // We get the API response and receive data in JSON format...
       .then(response => response.json())
       // ...then we update the users state
