@@ -1,4 +1,4 @@
-![demo](./public/screenshot-abc-githubstars)
+![demo](./public/screenshot-abc-githubstars.png)
 
 
 
